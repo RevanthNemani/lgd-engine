@@ -1,6 +1,7 @@
 # LGD Engine
 
 - [LGD Engine](#lgd-engine)
+  - [Add Renviron file](#add-renviron-file)
   - [API Documentation](#api-documentation)
   - [LGD models and methodologies](#lgd-models-and-methodologies)
     - [Introduction](#introduction)
@@ -9,6 +10,24 @@
     - [Credit Cards LGD model](#credit-cards-lgd-model)
     - [Banks and Sovereigns LGD model](#banks-and-sovereigns-lgd-model)
     - [Conclusion](#conclusion)
+
+## Add Renviron file
+
+```{}
+env="dev"
+
+dev.host="0.0.0.0"
+dev.port=3005
+dev.secret="Secret"
+
+test.host="0.0.0.0"
+test.port=3006
+test.secret="Secret"
+
+prod.host="0.0.0.0"
+prod.port=3010
+prod.secret="Secret"
+```
 
 ## API Documentation
 
